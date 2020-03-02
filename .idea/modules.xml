@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hello-app/hello-app.iml" filepath="$PROJECT_DIR$/hello-app/hello-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-lib/hello-lib.iml" filepath="$PROJECT_DIR$/hello-lib/hello-lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-starter/hello-starter.iml" filepath="$PROJECT_DIR$/hello-starter/hello-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parentHelloServiceProject.iml" filepath="$PROJECT_DIR$/parentHelloServiceProject.iml" />
+    </modules>
+  </component>
+</project>

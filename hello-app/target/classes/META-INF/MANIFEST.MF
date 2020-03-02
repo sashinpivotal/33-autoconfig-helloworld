@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: sang
+Build-Jdk: 11.0.3
+Implementation-Title: hello-app
+Implementation-Version: 1.0
+Implementation-Vendor-Id: io.pivotal.education.core-spring
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/parentHelloServiceProject/hello-app
+Main-Class: com.app.HelloApplication
+Created-By: Maven Integration for Eclipse
+
