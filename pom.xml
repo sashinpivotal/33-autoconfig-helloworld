@@ -11,11 +11,7 @@
         <relativePath></relativePath>
     </parent>
     <properties>
-
-        <!-- Uncomment the Java version you want, comment the other -->
-        <java.version>1.8</java.version>
-        <!--<java.version>11</java.version>-->
-
+        <java.version>11</java.version>
         <!-- Without this, Eclipse will flag an error on pom.xml -->
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
     </properties>
@@ -46,19 +42,7 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
-        <plugins>
-            <plugin>
-                <!-- Set Java version -->
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>${java.version}</source>
-                    <target>${java.version}</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
 
     <!--
     // TO-DO-10: This lab is made of 3 parts
