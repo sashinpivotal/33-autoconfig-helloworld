@@ -11,6 +11,12 @@
         <version>1.0</version>
     </parent>
     <dependencies>
+        <!--
+        TO-DO-23: Note that hello-starter has a transitive dependency on
+        hello-lib. This is similar to the way that many Spring Boot
+        starters have dependencies on the library (or libraries)
+        that they configure.
+        -->
         <dependency>
             <groupId>io.pivotal.education.core-spring</groupId>
             <artifactId>hello-lib</artifactId>

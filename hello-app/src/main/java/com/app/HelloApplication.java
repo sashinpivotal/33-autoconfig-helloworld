@@ -23,6 +23,8 @@ import org.springframework.context.annotation.Bean;
 //
 // TODO-22: Go to TO-DO-22 in the build.gradle (Gradle) or
 //          pom.xml (Maven) of the "hello-app" project
+// TODO-23: Go to TO-DO-23 in the build.gradle (Gradle) or
+//          pom.xml (Maven) of the "hello-starter" project
 //
 // TODO-25: Import the configuration class of "hello-starter"
 //          - Add the following statement
