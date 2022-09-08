@@ -51,6 +51,8 @@
     // Part #2: "hello-app" uses "TypicalHelloService" bean via "hello-starter" project and also
     // creates and configures its own "MyOwnHelloService" bean (tasks #20-26)
     // Part #3: Make "hello-starter" a Spring Boot starter with auto-configuration (tasks #30-38) -->
+    <!--
+    // TO-DO-11: Note that this project is a multi-module project -->
     <modules>
         <module>hello-app</module>
         <module>hello-starter</module>
